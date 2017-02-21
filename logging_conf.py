@@ -2,8 +2,9 @@
 import logging
 import sys
 
+
 def init_log():
-    logging_file = sys.argv[0] + '.log'
+    logging_file = './log/' + sys.argv[0].split(r'/')[-1] + '.log'
 
     logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',

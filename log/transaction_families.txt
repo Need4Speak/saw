@@ -1,0 +1,19 @@
+{
+  "1JPhppH3hxL467KdeCB94DQrkETJocc8N": {
+    "Host": "127.0.0.1", 
+    "HttpPort": 8800, 
+    "Name": "xo000", 
+    "NodeIdentifier": "1JPhppH3hxL467KdeCB94DQrkETJocc8N", 
+    "Port": 51558
+  }
+}
+
+
+{
+  "game001": {
+    "Board": "XXXOO----", 
+    "Player1": "1CkQCYFPHjj5CcqfeWJvMaPhCx88AJk1bK", 
+    "Player2": "1CkQCYFPHjj5CcqfeWJvMaPhCx88AJk1bK", 
+    "State": "P1-WIN"
+  }
+}
