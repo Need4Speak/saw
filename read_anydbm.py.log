@@ -1,0 +1,17 @@
+Mon, 20 Feb 2017 05:52:28 read_anydbm.py[line:35] WARNING File /home/ubuntu/sawtooth/data/base000_state.dbm does not exist.
+Mon, 20 Feb 2017 05:52:56 read_anydbm.py[line:35] WARNING File /home/ubuntu/sawtooth/data/base000_state.dbm does not exist.
+Mon, 20 Feb 2017 06:23:29 read_anydbm.py[line:35] WARNING File /home/ubuntu/sawtooth/data/base000_state.dbm does not exist.
+Mon, 20 Feb 2017 06:24:34 read_anydbm.py[line:28] INFO Find file /home/ubuntu/sawtooth/data/xo000_state.dbm.
+Mon, 20 Feb 2017 06:41:57 read_anydbm.py[line:28] INFO Find file /home/ubuntu/sawtooth/data/xo000_state.dbm.
+Mon, 20 Feb 2017 06:42:38 read_anydbm.py[line:28] INFO Find file /home/ubuntu/sawtooth/data/xo000_state.dbm.
+Mon, 20 Feb 2017 06:43:09 read_anydbm.py[line:28] INFO Find file /home/ubuntu/sawtooth/data/xo000_state.dbm.
+Mon, 20 Feb 2017 06:59:18 read_anydbm.py[line:28] INFO Find file /home/ubuntu/sawtooth/data/xo000_state.dbm.
+Mon, 20 Feb 2017 07:03:45 read_anydbm.py[line:28] INFO Find file /home/ubuntu/sawtooth/data/xo000_state.dbm.
+Mon, 20 Feb 2017 07:30:59 read_anydbm.py[line:28] INFO Find file /home/ubuntu/sawtooth/data/xo000_state.dbm.
+Mon, 20 Feb 2017 07:42:26 read_anydbm.py[line:28] INFO Find file /home/ubuntu/sawtooth/data/xo000_state.dbm.
+Mon, 20 Feb 2017 07:44:02 read_anydbm.py[line:28] INFO Find file /home/ubuntu/sawtooth/data/xo000_state.dbm.
+Mon, 20 Feb 2017 07:45:48 read_anydbm.py[line:28] INFO Find file /home/ubuntu/sawtooth/data/xo000_state.dbm.
+Mon, 20 Feb 2017 07:47:07 read_anydbm.py[line:28] INFO Find file /home/ubuntu/sawtooth/data/xo000_state.dbm.
+Mon, 20 Feb 2017 07:48:25 read_anydbm.py[line:28] INFO Find file /home/ubuntu/sawtooth/data/xo000_state.dbm.
+Mon, 20 Feb 2017 07:51:47 read_anydbm.py[line:28] INFO Find file /home/ubuntu/sawtooth/data/xo000_state.dbm.
+Tue, 21 Feb 2017 01:34:41 read_anydbm.py[line:28] INFO Find file /home/ubuntu/sawtooth/data/xo000_state.dbm.
