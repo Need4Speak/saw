@@ -45,7 +45,7 @@ def get_store():
     """Returns a list of all of the store names of transaction families."""
 
     store_list = json.loads(urllib2_conn(url_store + "?" + encode))
-    logging.info("The type of store_list is %s" % (type(store_list)))
+    # logging.info("The type of store_list is %s" % (type(store_list)))
     return store_list
 
 
@@ -56,7 +56,7 @@ def get_store_keys(tfname):
     The “tf” is short for Transaction Family.
     """
     store_keys = json.loads(urllib2_conn(url_store + tfname + "?" + encode))
-    logging.info("The type of store_keys is %s" % (type(store_keys)))
+    # logging.info("The type of store_keys is %s" % (type(store_keys)))
     return store_keys
 
 
@@ -65,7 +65,7 @@ def get_store_all_contents(tfname):
     Returns a dump of all the keys and values within tf_name.
     """
     tf_content = urllib2_conn(url_store + tfname + r"/*" + "?" + encode)
-    logging.info("The type of tf_content is %s" % (type(tf_content)))
+    # logging.info("The type of tf_content is %s" % (type(tf_content)))
     return tf_content
 
 
@@ -79,6 +79,8 @@ def log_tf_info(log_file='./log/transaction_families.txt'):
 
     with open(log_file, 'w') as f:
         f.write('\n\n'.join(tf_list))
+
+    logging.info("Transaction families info has been write into %s." % log_file)
 
 
 def get_block_id_list():
@@ -101,6 +103,8 @@ def get_block_chain(block_id_list, log_file='./log/block_chain.txt'):
 
     with open(log_file, 'w') as f:
         f.write('\n\n'.join(block_chain))
+
+    logging.info("Block chain info has been write into %s." % log_file)
 
     for index in range(len(block_chain)):
         block_chain[index] = json.loads(block_chain[index])
@@ -131,6 +135,7 @@ def log_transaction_info(log_file='./log/transactions.txt'):
     with open(log_file, 'w') as f:
         f.write('\n\n'.join(transaction_list))
 
+    logging.info("Transaction info has been write into %s." % log_file)
 
 
 """

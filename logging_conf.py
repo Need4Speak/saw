@@ -1,9 +1,14 @@
 # -*-coding:utf-8-*-
 import logging
 import sys
+import os
 
 
 def init_log():
+
+    if not os.path.exists('./log'):
+        os.makedirs('./log')
+
     logging_file = './log/' + sys.argv[0].split(r'/')[-1] + '.log'
 
     logging.basicConfig(level=logging.DEBUG,
