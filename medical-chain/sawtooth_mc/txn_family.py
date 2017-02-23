@@ -59,15 +59,13 @@ class McTransaction(transaction.Transaction):
 
         raise InvalidTransactionError('McTransaction.check_valid is not implemented')
 
+    def apply(self, store):
+        LOGGER.debug('apply %s', str(self))
+        LOGGER.error('McTransaction.apply is not implemented')
 
-def apply(self, store):
-    LOGGER.debug('apply %s', str(self))
-    LOGGER.error('McTransaction.apply is not implemented')
+    def dump(self):
+        result = super(McTransaction, self).dump()
 
+        LOGGER.error('McTransaction.dump is not implemented')
 
-def dump(self):
-    result = super(McTransaction, self).dump()
-
-    LOGGER.error('McTransaction.dump is not implemented')
-
-    return result
+        return result
