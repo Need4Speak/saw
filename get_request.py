@@ -71,7 +71,7 @@ def get_store_all_contents(tfname):
     return tf_content
 
 
-def log_tf_info(log_file='./log/transaction_families.txt'):
+def log_tf_info(log_file='./log/store.txt'):
     """Write the transaction families info into log_file. """
     tf_list = []
     all_stores = get_store()

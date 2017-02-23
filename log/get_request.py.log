@@ -11,3 +11,6 @@ Tue, 21 Feb 2017 07:35:08 get_request.py[line:138] INFO Transaction info has bee
 Tue, 21 Feb 2017 07:35:23 get_request.py[line:107] INFO Block chain info has been write into ./log/block_chain.txt.
 Tue, 21 Feb 2017 07:35:23 get_request.py[line:83] INFO Transaction families info has been write into ./log/transaction_families.txt.
 Tue, 21 Feb 2017 07:35:23 get_request.py[line:138] INFO Transaction info has been write into ./log/transactions.txt.
+Thu, 23 Feb 2017 06:15:12 get_request.py[line:109] INFO Block chain info has been write into ./log/block_chain.txt.
+Thu, 23 Feb 2017 06:15:12 get_request.py[line:85] INFO Transaction families info has been write into ./log/store.txt.
+Thu, 23 Feb 2017 06:15:12 get_request.py[line:140] INFO Transaction info has been write into ./log/transactions.txt.
