@@ -1,5 +1,7 @@
 # -*-coding:utf-8-*-
-
+"""
+project\sawtooth-core\core\sawtooth\client.py有响应的store，transaction，block的获取方法。
+"""
 import socket
 import urllib2
 import json

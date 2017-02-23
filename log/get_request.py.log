@@ -1,33 +1,13 @@
-Tue, 21 Feb 2017 06:31:50 get_request.py[line:75] INFO The type of store_list is <type 'list'>
-Tue, 21 Feb 2017 06:31:59 get_request.py[line:75] INFO The type of store_list is <type 'list'>
-Tue, 21 Feb 2017 06:42:31 get_request.py[line:75] INFO The type of store_list is <type 'list'>
-Tue, 21 Feb 2017 06:43:41 get_request.py[line:75] INFO The type of store_list is <type 'list'>
-Tue, 21 Feb 2017 06:44:08 get_request.py[line:75] INFO The type of store_list is <type 'list'>
-Tue, 21 Feb 2017 06:44:08 get_request.py[line:85] INFO The type of store_key is <type 'list'>
-Tue, 21 Feb 2017 06:44:08 get_request.py[line:85] INFO The type of store_key is <type 'list'>
-Tue, 21 Feb 2017 06:48:33 get_request.py[line:75] INFO The type of store_list is <type 'list'>
-Tue, 21 Feb 2017 06:48:33 get_request.py[line:85] INFO The type of store_keys is <type 'list'>
-Tue, 21 Feb 2017 06:48:33 get_request.py[line:93] INFO The type of tf_content is <type 'dict'>
-Tue, 21 Feb 2017 06:48:33 get_request.py[line:85] INFO The type of store_keys is <type 'list'>
-Tue, 21 Feb 2017 06:48:33 get_request.py[line:93] INFO The type of tf_content is <type 'dict'>
-Tue, 21 Feb 2017 06:57:56 get_request.py[line:75] INFO The type of store_list is <type 'list'>
-Tue, 21 Feb 2017 06:57:56 get_request.py[line:93] INFO The type of tf_content is <type 'dict'>
-Tue, 21 Feb 2017 06:57:56 get_request.py[line:93] INFO The type of tf_content is <type 'dict'>
-Tue, 21 Feb 2017 06:59:46 get_request.py[line:75] INFO The type of store_list is <type 'list'>
-Tue, 21 Feb 2017 06:59:46 get_request.py[line:93] INFO The type of tf_content is <type 'str'>
-Tue, 21 Feb 2017 06:59:46 get_request.py[line:93] INFO The type of tf_content is <type 'str'>
-Tue, 21 Feb 2017 07:01:20 get_request.py[line:75] INFO The type of store_list is <type 'list'>
-Tue, 21 Feb 2017 07:01:20 get_request.py[line:94] INFO The type of tf_content is <type 'str'>
-Tue, 21 Feb 2017 07:01:20 get_request.py[line:94] INFO The type of tf_content is <type 'str'>
-Tue, 21 Feb 2017 07:09:59 get_request.py[line:48] INFO The type of store_list is <type 'list'>
-Tue, 21 Feb 2017 07:09:59 get_request.py[line:68] INFO The type of tf_content is <type 'str'>
-Tue, 21 Feb 2017 07:09:59 get_request.py[line:68] INFO The type of tf_content is <type 'str'>
-Tue, 21 Feb 2017 07:12:45 get_request.py[line:48] INFO The type of store_list is <type 'list'>
-Tue, 21 Feb 2017 07:12:45 get_request.py[line:68] INFO The type of tf_content is <type 'str'>
-Tue, 21 Feb 2017 07:12:45 get_request.py[line:68] INFO The type of tf_content is <type 'str'>
-Tue, 21 Feb 2017 07:16:11 get_request.py[line:48] INFO The type of store_list is <type 'list'>
-Tue, 21 Feb 2017 07:16:11 get_request.py[line:68] INFO The type of tf_content is <type 'str'>
-Tue, 21 Feb 2017 07:16:11 get_request.py[line:68] INFO The type of tf_content is <type 'str'>
-Tue, 21 Feb 2017 07:18:15 get_request.py[line:48] INFO The type of store_list is <type 'list'>
-Tue, 21 Feb 2017 07:18:15 get_request.py[line:68] INFO The type of tf_content is <type 'str'>
-Tue, 21 Feb 2017 07:18:15 get_request.py[line:68] INFO The type of tf_content is <type 'str'>
+Tue, 21 Feb 2017 07:34:16 get_request.py[line:107] INFO Block chain info has been write into ./log/block_chain.txt.
+Tue, 21 Feb 2017 07:34:16 get_request.py[line:48] INFO The type of store_list is <type 'list'>
+Tue, 21 Feb 2017 07:34:16 get_request.py[line:68] INFO The type of tf_content is <type 'str'>
+Tue, 21 Feb 2017 07:34:16 get_request.py[line:68] INFO The type of tf_content is <type 'str'>
+Tue, 21 Feb 2017 07:34:16 get_request.py[line:83] INFO Transaction families info has been write into ./log/transaction_families.txt.
+Tue, 21 Feb 2017 07:34:16 get_request.py[line:138] INFO Transaction info has been write into ./log/transactions.txt.
+Tue, 21 Feb 2017 07:35:08 get_request.py[line:107] INFO Block chain info has been write into ./log/block_chain.txt.
+Tue, 21 Feb 2017 07:35:08 get_request.py[line:48] INFO The type of store_list is <type 'list'>
+Tue, 21 Feb 2017 07:35:08 get_request.py[line:83] INFO Transaction families info has been write into ./log/transaction_families.txt.
+Tue, 21 Feb 2017 07:35:08 get_request.py[line:138] INFO Transaction info has been write into ./log/transactions.txt.
+Tue, 21 Feb 2017 07:35:23 get_request.py[line:107] INFO Block chain info has been write into ./log/block_chain.txt.
+Tue, 21 Feb 2017 07:35:23 get_request.py[line:83] INFO Transaction families info has been write into ./log/transaction_families.txt.
+Tue, 21 Feb 2017 07:35:23 get_request.py[line:138] INFO Transaction info has been write into ./log/transactions.txt.

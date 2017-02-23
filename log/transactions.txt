@@ -1,167 +1,18 @@
 {
   "Dependencies": [], 
-  "Identifier": "5b901ae9572f25a4", 
-  "InBlock": "be04b50a0038f6fb", 
-  "Nonce": 1487575494.498871, 
+  "Identifier": "2e46d4e9d91a8a0e", 
+  "InBlock": "5b23b14b90d7370d", 
+  "Nonce": 1487820387.924819, 
   "PublicKey": null, 
-  "Signature": "HOwn5OhcMRU74uMlP+yjpaojOFV/mtdO+uLLnOjSk0g1VFKKpL4Btylq9DGZ3ZW2CkzH8wpDm1+eoVD4Y4qbkqo=", 
+  "Signature": "HAbG7hz9kGSxQG+rkTnSYDImN1fYKOy182IFgIeBMAbyr7q/xUojhk44M5ly+USmxRV2YfT4h5xbaCBFqn9c6I4=", 
   "Status": 2, 
   "TransactionType": "/EndpointRegistryTransaction", 
   "Update": {
     "HttpPort": 8800, 
-    "Name": "xo000", 
+    "Name": "mc000", 
     "NetHost": "127.0.0.1", 
-    "NetPort": 43426, 
-    "NodeIdentifier": "1JPhppH3hxL467KdeCB94DQrkETJocc8N", 
-    "Verb": "reg"
-  }
-}
-
-
-{
-  "Action": "CREATE", 
-  "Dependencies": [], 
-  "Identifier": "6be407f6fd7d5e29", 
-  "InBlock": "2dd8f51759fcc393", 
-  "Name": "game001", 
-  "Nonce": 1487575722.721395, 
-  "PublicKey": "04247624fb559fae625e948e14145d08f75ba05faf1798c6fb7261b00ab15aca3c5086fe26705ab020fe022b62177418746e2235e517189b2ca2530760354a60b6", 
-  "Signature": "HIwL3OnO15S5sT4Fv50I2O4NuvYnSjzV+fyK939fpvK1/qIdc3asMG/aJxn7rqY0i7CVq4Z6iOP+L6VQiDyXW8Y=", 
-  "Status": 2, 
-  "TransactionType": "/XoTransaction"
-}
-
-
-{
-  "Action": "TAKE", 
-  "Dependencies": [], 
-  "Identifier": "53af5e6bb93e311f", 
-  "InBlock": "3483ff6f06ba5219", 
-  "Name": "game001", 
-  "Nonce": 1487576721.637815, 
-  "PublicKey": "04247624fb559fae625e948e14145d08f75ba05faf1798c6fb7261b00ab15aca3c5086fe26705ab020fe022b62177418746e2235e517189b2ca2530760354a60b6", 
-  "Signature": "HBjZnYaRqNQwol8nRCQFR+cPjNv+QWbuVTSH9oGPrblqdseKlmmDsoAvcZtjSH4J3Ai1Mh1PAiziiWvGQ2DdX4g=", 
-  "Space": 1, 
-  "Status": 2, 
-  "TransactionType": "/XoTransaction"
-}
-
-
-{
-  "Action": "TAKE", 
-  "Dependencies": [], 
-  "Identifier": "21949202a8765820", 
-  "InBlock": "6f3af9f22201ac7b", 
-  "Name": "game001", 
-  "Nonce": 1487576804.014221, 
-  "PublicKey": "04247624fb559fae625e948e14145d08f75ba05faf1798c6fb7261b00ab15aca3c5086fe26705ab020fe022b62177418746e2235e517189b2ca2530760354a60b6", 
-  "Signature": "HChHztAunl8Q+hR9EZ+ekhs78fEttCV5cGMPggWPQcYZE5aSNtDkokLFwDC2z7TOZElrz00ocgkpMDUmlW+6v4A=", 
-  "Space": 5, 
-  "Status": 2, 
-  "TransactionType": "/XoTransaction"
-}
-
-
-{
-  "Action": "TAKE", 
-  "Dependencies": [], 
-  "Identifier": "d9bb15ce42263fa1", 
-  "InBlock": "83edf0435d869217", 
-  "Name": "game001", 
-  "Nonce": 1487576896.035642, 
-  "PublicKey": "04247624fb559fae625e948e14145d08f75ba05faf1798c6fb7261b00ab15aca3c5086fe26705ab020fe022b62177418746e2235e517189b2ca2530760354a60b6", 
-  "Signature": "HIWOasDVoi26Xe699VA8LpG9bOo3y40/TqUbbVi4ga9wCBE9pGUHtxMoJ73ywMMLpv45isonGhslMAmq8NP2wqE=", 
-  "Space": 2, 
-  "Status": 2, 
-  "TransactionType": "/XoTransaction"
-}
-
-
-{
-  "Action": "TAKE", 
-  "Dependencies": [], 
-  "Identifier": "2b3f4d9ea0724bf3", 
-  "InBlock": "234dd939ea35f4f1", 
-  "Name": "game001", 
-  "Nonce": 1487577066.074944, 
-  "PublicKey": "04247624fb559fae625e948e14145d08f75ba05faf1798c6fb7261b00ab15aca3c5086fe26705ab020fe022b62177418746e2235e517189b2ca2530760354a60b6", 
-  "Signature": "G9ZRh4Ivu/2ILPO/3OJHMETA3giHwe2Tstg/x1CIjqDj6ktgr2GQE7UgbxDbwqwmQoTq3WmkFLKmR7Y/KmryNoU=", 
-  "Space": 4, 
-  "Status": 2, 
-  "TransactionType": "/XoTransaction"
-}
-
-
-{
-  "Action": "TAKE", 
-  "Dependencies": [], 
-  "Identifier": "45c4608222b1486d", 
-  "InBlock": "c2f4d2b6bcc84a4d", 
-  "Name": "game001", 
-  "Nonce": 1487577084.81787, 
-  "PublicKey": "04247624fb559fae625e948e14145d08f75ba05faf1798c6fb7261b00ab15aca3c5086fe26705ab020fe022b62177418746e2235e517189b2ca2530760354a60b6", 
-  "Signature": "G5tIaoAwjF7S348+2We7D9zH/VNAZtShNTtpAYoHlAixD8R/jyx+qXV2t11a/ndj7z9q0HjgcnrDJ3VeEz/Wt+0=", 
-  "Space": 3, 
-  "Status": 2, 
-  "TransactionType": "/XoTransaction"
-}
-
-
-{
-  "Dependencies": [], 
-  "Identifier": "0fadd5c2ba2c0a23", 
-  "InBlock": "58436c23f96ab9ee", 
-  "Nonce": 1487640841.301484, 
-  "PublicKey": null, 
-  "Signature": "GwrehFZcGEsWJwtVuDFIXskRIVtjbLuF8TKopnW9R3jmiFfOKMSd17TmAkkqoMmbhr8czkwKkbncyXrFm3TDfLs=", 
-  "Status": 2, 
-  "TransactionType": "/EndpointRegistryTransaction", 
-  "Update": {
-    "HttpPort": 8800, 
-    "Name": "xo000", 
-    "NetHost": "127.0.0.1", 
-    "NetPort": 42351, 
-    "NodeIdentifier": "1JPhppH3hxL467KdeCB94DQrkETJocc8N", 
-    "Verb": "reg"
-  }
-}
-
-
-{
-  "Dependencies": [], 
-  "Identifier": "0fd00a4b4f1a6156", 
-  "InBlock": "31695f872ececa39", 
-  "Nonce": 1487643376.565276, 
-  "PublicKey": null, 
-  "Signature": "G0JPU+hRtENUA3iLZEcdcyzArSnPlVGsZtLUglNOHy49TW3Wl2dqj5hUmaFk6pwavjqLjmMa4AyaUst/RdfLF2g=", 
-  "Status": 2, 
-  "TransactionType": "/EndpointRegistryTransaction", 
-  "Update": {
-    "HttpPort": 8800, 
-    "Name": "xo000", 
-    "NetHost": "127.0.0.1", 
-    "NetPort": 52820, 
-    "NodeIdentifier": "1JPhppH3hxL467KdeCB94DQrkETJocc8N", 
-    "Verb": "reg"
-  }
-}
-
-
-{
-  "Dependencies": [], 
-  "Identifier": "aa0e2075d5294932", 
-  "InBlock": "26470f9fc5ab38a9", 
-  "Nonce": 1487660972.073494, 
-  "PublicKey": null, 
-  "Signature": "HF8KyF4x3n59VKRgWZqEV1OOiR95GtqcElKU2DYNCvgFbVEd88rvQQqmLapyWaP6nmWHdHdBz5AWjWFZpk+WZi0=", 
-  "Status": 2, 
-  "TransactionType": "/EndpointRegistryTransaction", 
-  "Update": {
-    "HttpPort": 8800, 
-    "Name": "xo000", 
-    "NetHost": "127.0.0.1", 
-    "NetPort": 51558, 
-    "NodeIdentifier": "1JPhppH3hxL467KdeCB94DQrkETJocc8N", 
+    "NetPort": 37921, 
+    "NodeIdentifier": "12oqNsBe6hZMXZxDrFpJGJSGr7sbRWK1g2", 
     "Verb": "reg"
   }
 }

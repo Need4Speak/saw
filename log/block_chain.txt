@@ -1,183 +1,30 @@
 {
-  "BlockNum": 10, 
-  "Identifier": "26470f9fc5ab38a9", 
-  "PreviousBlockID": "31695f872ececa39", 
-  "PublicKey": null, 
-  "Signature": "G6hcuWvR1IAujlBzuJYC6pe8V0RiDdHRTP21qw7I0c6VFohvJ4zHGxhLz6jfUHozsgJ2TMWqEbMxG8Ulf4YvY8M=", 
-  "TransactionBlockType": "/Poet/PoetTransactionBlock", 
-  "TransactionIDs": [
-    "aa0e2075d5294932"
-  ], 
-  "WaitCertificate": {
-    "SerializedCert": "{ \"BlockHash\": \"1a7acbb1666fdc121fe0b68c4387c186d98bdf4f2ffca3cad91731ad79d901cb\", \"Duration\": 1.764907, \"LocalMean\": 5.000000, \"PreviousCertID\": \"z3s6ignj4sap84gx\", \"RequestTime\": 1487660972.158150, \"ValidatorAddress\": \"1JPhppH3hxL467KdeCB94DQrkETJocc8N\" }", 
-    "Signature": "wwmme35c3updssafzyiafiddecz2tt3xwjfmfsvgknjvde7ugqm226gu7sdwvj4gxqqfam8dnszf3vu5anw4k99rei927sawxq38262"
-  }
-}
-
-
-{
-  "BlockNum": 9, 
-  "Identifier": "31695f872ececa39", 
-  "PreviousBlockID": "58436c23f96ab9ee", 
-  "PublicKey": null, 
-  "Signature": "GzLVBx6vb/4hV938pJfCXu4nBQ5xtIOc3Ce6JYHDSCXq+GIxt6zRefCNJrVyXhowm9SQwuJLQ9PmC5gSG6af8FA=", 
-  "TransactionBlockType": "/Poet/PoetTransactionBlock", 
-  "TransactionIDs": [
-    "0fd00a4b4f1a6156"
-  ], 
-  "WaitCertificate": {
-    "SerializedCert": "{ \"BlockHash\": \"f46ac2110fc374343d3d8342f9efc62becaa35b7566e79ef2eddbeaf70625dc7\", \"Duration\": 3.484003, \"LocalMean\": 5.000000, \"PreviousCertID\": \"2qab9qgei3jkancd\", \"RequestTime\": 1487643376.641829, \"ValidatorAddress\": \"1JPhppH3hxL467KdeCB94DQrkETJocc8N\" }", 
-    "Signature": "wqw9jehei6q29cm5nxswk2pevjcntezdscb5vdb7vwi4qpyezbmqx5wyvwdhy3ziwjw7dhk6deyd6uyiwuqxyjtvkqxhv8bxpsgsn82"
-  }
-}
-
-
-{
-  "BlockNum": 8, 
-  "Identifier": "58436c23f96ab9ee", 
-  "PreviousBlockID": "c2f4d2b6bcc84a4d", 
-  "PublicKey": null, 
-  "Signature": "G+8A71Kg9wArOvRiTljG+BEncvbqXITBWC49Ac7NHgD6RMfRh9nsN4+Guoj5XdG+1zc1MQhW0ZrU8As4rr7WaLU=", 
-  "TransactionBlockType": "/Poet/PoetTransactionBlock", 
-  "TransactionIDs": [
-    "0fadd5c2ba2c0a23"
-  ], 
-  "WaitCertificate": {
-    "SerializedCert": "{ \"BlockHash\": \"7a0e2af9046be9606749d04406f7ede69974de2487bed3b8510c820e168dd636\", \"Duration\": 1.567736, \"LocalMean\": 5.000000, \"PreviousCertID\": \"b7iizzzbtuxq5ujv\", \"RequestTime\": 1487640841.385361, \"ValidatorAddress\": \"1JPhppH3hxL467KdeCB94DQrkETJocc8N\" }", 
-    "Signature": "esj6t63hphs6w7dexiba3rd6ibtrajskfhn3stcfqg826jdbnbrhrdxbqt8gyfx5btnz7h2z5a8qma3fx9fgbp6vhwr9zbujvk6zuwi"
-  }
-}
-
-
-{
-  "BlockNum": 7, 
-  "Identifier": "c2f4d2b6bcc84a4d", 
-  "PreviousBlockID": "234dd939ea35f4f1", 
-  "PublicKey": null, 
-  "Signature": "G3XKWAoxJf5iXM+q2Aj0YQjAz98luLrHJK3qyl1x54bWFbhieZE7v/gtoYjtx5Hu+MmYtIyKMnpA1TdlaKcUet4=", 
-  "TransactionBlockType": "/Poet/PoetTransactionBlock", 
-  "TransactionIDs": [
-    "45c4608222b1486d"
-  ], 
-  "WaitCertificate": {
-    "SerializedCert": "{ \"BlockHash\": \"178edeceba9cf57a774a58edf6e2381d46ca8c34b6a39abf89b127fdcfb6f5b3\", \"Duration\": 2.164559, \"LocalMean\": 5.000000, \"PreviousCertID\": \"ygq9xfb2asfix2ih\", \"RequestTime\": 1487577084.897736, \"ValidatorAddress\": \"1JPhppH3hxL467KdeCB94DQrkETJocc8N\" }", 
-    "Signature": "pc7ae7vng84djpqffdwygy6huyvsrvp7545mj5wwsykb5yi8drpvz3whtqyja3s39t9hsm456ydaf29k2v6y4dc7h2h4ayrk7hvevv2"
-  }
-}
-
-
-{
-  "BlockNum": 6, 
-  "Identifier": "234dd939ea35f4f1", 
-  "PreviousBlockID": "83edf0435d869217", 
-  "PublicKey": null, 
-  "Signature": "HO1TXsmU2BgCuqwnVYlgL4s2FISHEYY8vx04SHRMLQi3lRjaS2nK6zj8aMTasyAcZU2/BCXCBECj2brQnKu6hjE=", 
-  "TransactionBlockType": "/Poet/PoetTransactionBlock", 
-  "TransactionIDs": [
-    "2b3f4d9ea0724bf3"
-  ], 
-  "WaitCertificate": {
-    "SerializedCert": "{ \"BlockHash\": \"51bb13772cb4bd19fa5cfb6a9bf3caa6d97c8aad62994849d331564126b70869\", \"Duration\": 7.345766, \"LocalMean\": 5.000000, \"PreviousCertID\": \"56gtj5ejfcchh9e4\", \"RequestTime\": 1487577066.155801, \"ValidatorAddress\": \"1JPhppH3hxL467KdeCB94DQrkETJocc8N\" }", 
-    "Signature": "bdmdsv39xpxfw5rbbn9nwv5wzc6cr2k8tx9jn2apb7vjv2dtav36pqxhi34riasqp6hu5rs35ejqq2u6nkzsgc4sig6y59bvgnayq22"
-  }
-}
-
-
-{
-  "BlockNum": 5, 
-  "Identifier": "83edf0435d869217", 
-  "PreviousBlockID": "6f3af9f22201ac7b", 
-  "PublicKey": null, 
-  "Signature": "G9isuHJ6r1fC+yME3Nll3QCY2EEei3oeytu6XuFGE6TQoecJrnzOz8NW6XrE4E3ThqLNYHWaJSz9uuD3aUKElFw=", 
-  "TransactionBlockType": "/Poet/PoetTransactionBlock", 
-  "TransactionIDs": [
-    "d9bb15ce42263fa1"
-  ], 
-  "WaitCertificate": {
-    "SerializedCert": "{ \"BlockHash\": \"67f6022113e3cda69e6bf679066ac2e2d93e52491dd369c3812eb860893b2231\", \"Duration\": 3.963853, \"LocalMean\": 5.000000, \"PreviousCertID\": \"22cftskvgbd7m9fv\", \"RequestTime\": 1487576896.113811, \"ValidatorAddress\": \"1JPhppH3hxL467KdeCB94DQrkETJocc8N\" }", 
-    "Signature": "zjybc6fxteian3x9fkrabt65u62672s4r2vig8xpbhtyrq36pcmk4gxr9seuyjybk8zrr2xh9xppq8m2946z77em4sa9cnvi23zf32i"
-  }
-}
-
-
-{
-  "BlockNum": 4, 
-  "Identifier": "6f3af9f22201ac7b", 
-  "PreviousBlockID": "3483ff6f06ba5219", 
-  "PublicKey": null, 
-  "Signature": "HCIr3R/DklGC2YC6NJ+LoYqjehGzXx34sB6625aZaMKGajdG4wXiYyoXf/D6Ld3yIWtyQHLVIPxFSJfamkDjgpA=", 
-  "TransactionBlockType": "/Poet/PoetTransactionBlock", 
-  "TransactionIDs": [
-    "21949202a8765820"
-  ], 
-  "WaitCertificate": {
-    "SerializedCert": "{ \"BlockHash\": \"40fdb9ca2905bdd07c0fd0bed63b932521117ed7fbcc3cc74ce860088f9edc35\", \"Duration\": 8.500809, \"LocalMean\": 5.000000, \"PreviousCertID\": \"ffy9wi6ugh4dv3k5\", \"RequestTime\": 1487576804.099407, \"ValidatorAddress\": \"1JPhppH3hxL467KdeCB94DQrkETJocc8N\" }", 
-    "Signature": "4khwjumdm6a4m8w4nc67uudjpkqazp4dkfpf3ee7pjjxmfjmqihbyygpwqeuxk5qfssbfskn5tb685n62b5mxi6wr5cff6jwdec3532"
-  }
-}
-
-
-{
-  "BlockNum": 3, 
-  "Identifier": "3483ff6f06ba5219", 
-  "PreviousBlockID": "2dd8f51759fcc393", 
-  "PublicKey": null, 
-  "Signature": "GzHq2Wv3GM55upCPkZaXDzDtERbJ6n/2dNeshut96sgTMrs5i3PvmYsyW1aipEWnKitGG/m+fBOicSMAjX+J5xI=", 
-  "TransactionBlockType": "/Poet/PoetTransactionBlock", 
-  "TransactionIDs": [
-    "53af5e6bb93e311f"
-  ], 
-  "WaitCertificate": {
-    "SerializedCert": "{ \"BlockHash\": \"55415d67990329030ac1626cec1df9a4be11ec7a2c55487e04099c2750f31275\", \"Duration\": 1.631539, \"LocalMean\": 5.000000, \"PreviousCertID\": \"6bgssx24dtfzhxpt\", \"RequestTime\": 1487576721.722796, \"ValidatorAddress\": \"1JPhppH3hxL467KdeCB94DQrkETJocc8N\" }", 
-    "Signature": "k7hrjrsjfrsjgbenpk6ysmyc6rmygfepwfkwdfcn9xmfj6rxetq59eqwyzvqp7mggs6ti45e23x7iauhz7tdahnzr67dn43p46erpb2"
-  }
-}
-
-
-{
-  "BlockNum": 2, 
-  "Identifier": "2dd8f51759fcc393", 
-  "PreviousBlockID": "be04b50a0038f6fb", 
-  "PublicKey": null, 
-  "Signature": "G9C9iLZGaGf250VnHMMCo6Xgs6teisMjH51V9WIee+j5zuXaFtlUS7WlEjckhUlY0P52e7qTCoxkFr9bwlzB04k=", 
-  "TransactionBlockType": "/Poet/PoetTransactionBlock", 
-  "TransactionIDs": [
-    "6be407f6fd7d5e29"
-  ], 
-  "WaitCertificate": {
-    "SerializedCert": "{ \"BlockHash\": \"c0b27f4aceefaccaa2076b5f8be29e08d7743742e8c977cb0d6af8bbc0abb27d\", \"Duration\": 5.240871, \"LocalMean\": 5.000000, \"PreviousCertID\": \"bn8b3vvk3mixw48h\", \"RequestTime\": 1487575722.830069, \"ValidatorAddress\": \"1JPhppH3hxL467KdeCB94DQrkETJocc8N\" }", 
-    "Signature": "zwgnzhzmqx9phuy7px7tvsnwmk8ztcjm9mxc9eb4m4e94ydb5wnccn5mcgs97phv2fzj6mgeymyhc5kb4sui7gatj877gvntpkrn9ms"
-  }
-}
-
-
-{
   "BlockNum": 1, 
-  "Identifier": "be04b50a0038f6fb", 
-  "PreviousBlockID": "5638ea3ca6a32ec7", 
+  "Identifier": "5b23b14b90d7370d", 
+  "PreviousBlockID": "9c9131a6eb017fc0", 
   "PublicKey": null, 
-  "Signature": "HEtrTkwoL5xVQl8A3d4/rQQVq+cx/6DASEbiDQ5tRG8+fsIt0Wlq9tYHMnJdkBmXun3O7eqfDEZYP5GIvgwzRZM=", 
+  "Signature": "HItntpmaQCpz1WaXVjrD9NW+0kuLFdz5kl6M/mAtjNYbMWJ4mDKFUy5eswM5xoum5U6hci0a65RNdINKe8BD0oA=", 
   "TransactionBlockType": "/Poet/PoetTransactionBlock", 
   "TransactionIDs": [
-    "5b901ae9572f25a4"
+    "2e46d4e9d91a8a0e"
   ], 
   "WaitCertificate": {
-    "SerializedCert": "{ \"BlockHash\": \"08ad7a8c750f1851f5d777700d0b37b9ca96a90c6ed543e2822cbba17e541b65\", \"Duration\": 7.926282, \"LocalMean\": 5.000000, \"PreviousCertID\": \"adck6yv5uck7ax7i\", \"RequestTime\": 1487575494.589644, \"ValidatorAddress\": \"1JPhppH3hxL467KdeCB94DQrkETJocc8N\" }", 
-    "Signature": "g7x6mxn88sds4fk3zkk7szitpy2a7g925xngxi9ncnv2nuqvkegx8d5w76u7p68hx2b8d3djpfye7ng8fnk7gimyb6vwqa428tmvdws"
+    "SerializedCert": "{ \"BlockHash\": \"8d0870b390f77925cc097192046f1c954f9eea02b4b3fe48f83f690c726794b2\", \"Duration\": 5.412400, \"LocalMean\": 5.000000, \"PreviousCertID\": \"83kw3u7vvis357vz\", \"RequestTime\": 1487820388.005495, \"ValidatorAddress\": \"12oqNsBe6hZMXZxDrFpJGJSGr7sbRWK1g2\" }", 
+    "Signature": "uggnwvbxmyxznbt8daapg36wtmxufre2rxvbvyp6qw6ifzns3tdtexcbz2zmx5snkz24jztaq8p6mnw2wxnwp7at98mrfxdskthuvxi"
   }
 }
 
 
 {
   "BlockNum": 0, 
-  "Identifier": "5638ea3ca6a32ec7", 
+  "Identifier": "9c9131a6eb017fc0", 
   "PreviousBlockID": "0000000000000000", 
   "PublicKey": null, 
-  "Signature": "G/XZpbtlXXpNzj/1cmHOVq9vTBLFC2wfrkEAD6mJdgq1jmwBRS92SY8YnBWqlrzYaq3rcy9e5WYaMFiK5dw3dII=", 
+  "Signature": "G3RNfAcgoKgvwWG7FW8oGK8mGaxFQF9km1BItcDg50EjVNHiOX1dbRMf1wBSABOLFSXciiQXLhTtTz475F/Zc1g=", 
   "TransactionBlockType": "/Poet/PoetTransactionBlock", 
   "TransactionIDs": [], 
   "WaitCertificate": {
-    "SerializedCert": "{ \"BlockHash\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\", \"Duration\": 2.134096, \"LocalMean\": 5.000000, \"PreviousCertID\": \"0000000000000000\", \"RequestTime\": 1487575471.037783, \"ValidatorAddress\": \"1JPhppH3hxL467KdeCB94DQrkETJocc8N\" }", 
-    "Signature": "u7avess8xaapqx4zfdqegyve5rhtnvtm93vd7vjvk2jjebgpdra2xzffqzwztgxmej4s3h4s3mvk34fu355426htb94z3j9fmtcmiga"
+    "SerializedCert": "{ \"BlockHash\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\", \"Duration\": 3.478081, \"LocalMean\": 5.000000, \"PreviousCertID\": \"0000000000000000\", \"RequestTime\": 1487819652.373404, \"ValidatorAddress\": \"12oqNsBe6hZMXZxDrFpJGJSGr7sbRWK1g2\" }", 
+    "Signature": "wmkwwqkfutnycik8n4iga2zu3arx373pzj9xee3qwner72btjax9krrs9x23bv56pqdeh3z4hn2awjxeyia4r7vpxhxg8p5g8pamzys"
   }
 }

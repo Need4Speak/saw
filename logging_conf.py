@@ -2,13 +2,15 @@
 import logging
 import sys
 import os
+import time
 
 
 def init_log():
 
     if not os.path.exists('./log'):
         os.makedirs('./log')
-
+    #cur_time = time.strftime("%Y-%m-%d--%H-%M", time.localtime())
+    #logging_file = './log/' + sys.argv[0].split(r'/')[-1] + cur_time +'.log'
     logging_file = './log/' + sys.argv[0].split(r'/')[-1] + '.log'
 
     logging.basicConfig(level=logging.DEBUG,
