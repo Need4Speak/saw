@@ -7,6 +7,8 @@ import urllib2
 import json
 import logging
 from logging_conf import init_log
+import time
+import os
 
 def socket_conn():
     # 创建一个socket:
@@ -71,8 +73,8 @@ def get_store_all_contents(tfname):
     return tf_content
 
 
-def log_tf_info(log_file='./log/store.txt'):
-    """Write the transaction families info into log_file. """
+def log_store_info(log_file='./log/store.txt'):
+    """Write the store info into log_file. """
     tf_list = []
     all_stores = get_store()
 
@@ -82,7 +84,7 @@ def log_tf_info(log_file='./log/store.txt'):
     with open(log_file, 'w') as f:
         f.write('\n\n'.join(tf_list))
 
-    logging.info("Transaction families info has been write into %s." % log_file)
+    logging.info("Store info has been write into %s." % log_file)
 
 
 def get_block_id_list():
@@ -151,20 +153,12 @@ url_transaction = "transaction"
 
 if __name__ == '__main__':
     init_log()
-    get_block_chain(get_block_id_list())
-
-    # Test /store ...
-    # all_stores = get_store()
-    # print all_stores
-    #
-    # for tf_name in all_stores:
-    #     print get_store_keys(tf_name)
-    #     print get_store_all_contents(tf_name)
-    log_tf_info()
-
-    # Test /transaction
-    # print get_transaction_id_list()
-    # print get_transaction_by_id(u'5b901ae9572f25a4')
-    log_transaction_info()
+    cur_time = time.strftime("%Y%m%d%H%M", time.localtime())
+    dir_name = "./log/%s" % cur_time
+    if not os.path.exists(dir_name):
+        os.mkdir(dir_name)
+    get_block_chain(get_block_id_list(), "%s/block_chain.log" % dir_name)
+    log_store_info("%s/store.log" % dir_name)
+    log_transaction_info("%s/transaction.log" % dir_name)
 
 

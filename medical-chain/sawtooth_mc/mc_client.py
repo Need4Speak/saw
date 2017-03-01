@@ -69,3 +69,11 @@ class McClient(SawtoothClient):
             'Space': space,
         }
         return self.send_mc_txn(update)
+
+    def add_patient_info(self, patient_id, patient_name, patient_illness):
+        update = {
+            "patient_id": patient_id,
+            "patient_name": patient_name,
+            "patient_illness": patient_illness,
+        }
+        return self.send_mc_txn(update)

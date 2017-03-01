@@ -14,3 +14,74 @@ Tue, 21 Feb 2017 07:35:23 get_request.py[line:138] INFO Transaction info has bee
 Thu, 23 Feb 2017 06:15:12 get_request.py[line:109] INFO Block chain info has been write into ./log/block_chain.txt.
 Thu, 23 Feb 2017 06:15:12 get_request.py[line:85] INFO Transaction families info has been write into ./log/store.txt.
 Thu, 23 Feb 2017 06:15:12 get_request.py[line:140] INFO Transaction info has been write into ./log/transactions.txt.
+Thu, 23 Feb 2017 08:54:52 get_request.py[line:110] INFO Block chain info has been write into ./log/block_chain201702230854.txt.
+Thu, 23 Feb 2017 08:54:52 get_request.py[line:86] INFO Store info has been write into ./log/store201702230854.
+Thu, 23 Feb 2017 08:54:52 get_request.py[line:141] INFO Transaction info has been write into ./log/transaction201702230854.
+Thu, 23 Feb 2017 09:00:02 get_request.py[line:111] INFO Block chain info has been write into ./log/201702230900/block_chain.log.
+Thu, 23 Feb 2017 09:00:02 get_request.py[line:87] INFO Store info has been write into ./log/201702230900/store.log.
+Thu, 23 Feb 2017 09:00:02 get_request.py[line:142] INFO Transaction info has been write into ./log/201702230900/transaction.log.
+Wed, 01 Mar 2017 09:01:41 get_request.py[line:111] INFO Block chain info has been write into ./log/201703010901/block_chain.log.
+Wed, 01 Mar 2017 09:01:41 get_request.py[line:87] INFO Store info has been write into ./log/201703010901/store.log.
+Wed, 01 Mar 2017 09:01:41 get_request.py[line:142] INFO Transaction info has been write into ./log/201703010901/transaction.log.
+Wed, 01 Mar 2017 09:15:54 get_request.py[line:111] INFO Block chain info has been write into ./log/201703010915/block_chain.log.
+Wed, 01 Mar 2017 09:15:54 get_request.py[line:87] INFO Store info has been write into ./log/201703010915/store.log.
+Wed, 01 Mar 2017 09:15:54 get_request.py[line:142] INFO Transaction info has been write into ./log/201703010915/transaction.log.
+Wed, 01 Mar 2017 09:24:09 get_request.py[line:111] INFO Block chain info has been write into ./log/201703010924/block_chain.log.
+Wed, 01 Mar 2017 09:24:09 get_request.py[line:87] INFO Store info has been write into ./log/201703010924/store.log.
+Wed, 01 Mar 2017 09:24:09 get_request.py[line:142] INFO Transaction info has been write into ./log/201703010924/transaction.log.
+Wed, 01 Mar 2017 09:54:40 get_request.py[line:111] INFO Block chain info has been write into ./log/201703010954/block_chain.log.
+Wed, 01 Mar 2017 09:54:40 get_request.py[line:87] INFO Store info has been write into ./log/201703010954/store.log.
+Wed, 01 Mar 2017 09:54:40 get_request.py[line:142] INFO Transaction info has been write into ./log/201703010954/transaction.log.
+Wed, 01 Mar 2017 11:35:44 get_request.py[line:111] INFO Block chain info has been write into ./log/201703011135/block_chain.log.
+Wed, 01 Mar 2017 11:35:44 get_request.py[line:87] INFO Store info has been write into ./log/201703011135/store.log.
+Wed, 01 Mar 2017 11:35:44 get_request.py[line:142] INFO Transaction info has been write into ./log/201703011135/transaction.log.
+Wed, 01 Mar 2017 11:40:09 get_request.py[line:111] INFO Block chain info has been write into ./log/201703011140/block_chain.log.
+Wed, 01 Mar 2017 11:40:09 get_request.py[line:87] INFO Store info has been write into ./log/201703011140/store.log.
+Wed, 01 Mar 2017 11:40:09 get_request.py[line:142] INFO Transaction info has been write into ./log/201703011140/transaction.log.
+Wed, 01 Mar 2017 11:40:47 get_request.py[line:111] INFO Block chain info has been write into ./log/201703011140/block_chain.log.
+Wed, 01 Mar 2017 11:40:47 get_request.py[line:87] INFO Store info has been write into ./log/201703011140/store.log.
+Wed, 01 Mar 2017 11:40:47 get_request.py[line:142] INFO Transaction info has been write into ./log/201703011140/transaction.log.
+Wed, 01 Mar 2017 11:58:26 get_request.py[line:111] INFO Block chain info has been write into ./log/201703011158/block_chain.log.
+Wed, 01 Mar 2017 11:58:26 get_request.py[line:87] INFO Store info has been write into ./log/201703011158/store.log.
+Wed, 01 Mar 2017 11:58:26 get_request.py[line:142] INFO Transaction info has been write into ./log/201703011158/transaction.log.
+Wed, 01 Mar 2017 12:01:22 get_request.py[line:111] INFO Block chain info has been write into ./log/201703011201/block_chain.log.
+Wed, 01 Mar 2017 12:01:22 get_request.py[line:87] INFO Store info has been write into ./log/201703011201/store.log.
+Wed, 01 Mar 2017 12:01:22 get_request.py[line:142] INFO Transaction info has been write into ./log/201703011201/transaction.log.
+Wed, 01 Mar 2017 12:13:18 get_request.py[line:111] INFO Block chain info has been write into ./log/201703011213/block_chain.log.
+Wed, 01 Mar 2017 12:13:18 get_request.py[line:87] INFO Store info has been write into ./log/201703011213/store.log.
+Wed, 01 Mar 2017 12:13:18 get_request.py[line:142] INFO Transaction info has been write into ./log/201703011213/transaction.log.
+Wed, 01 Mar 2017 12:14:29 get_request.py[line:111] INFO Block chain info has been write into ./log/201703011214/block_chain.log.
+Wed, 01 Mar 2017 12:14:30 get_request.py[line:87] INFO Store info has been write into ./log/201703011214/store.log.
+Wed, 01 Mar 2017 12:14:30 get_request.py[line:142] INFO Transaction info has been write into ./log/201703011214/transaction.log.
+Wed, 01 Mar 2017 12:15:49 get_request.py[line:111] INFO Block chain info has been write into ./log/201703011215/block_chain.log.
+Wed, 01 Mar 2017 12:15:50 get_request.py[line:87] INFO Store info has been write into ./log/201703011215/store.log.
+Wed, 01 Mar 2017 12:15:50 get_request.py[line:142] INFO Transaction info has been write into ./log/201703011215/transaction.log.
+Wed, 01 Mar 2017 12:16:24 get_request.py[line:111] INFO Block chain info has been write into ./log/201703011216/block_chain.log.
+Wed, 01 Mar 2017 12:16:24 get_request.py[line:87] INFO Store info has been write into ./log/201703011216/store.log.
+Wed, 01 Mar 2017 12:16:24 get_request.py[line:142] INFO Transaction info has been write into ./log/201703011216/transaction.log.
+Wed, 01 Mar 2017 12:19:32 get_request.py[line:111] INFO Block chain info has been write into ./log/201703011219/block_chain.log.
+Wed, 01 Mar 2017 12:19:32 get_request.py[line:87] INFO Store info has been write into ./log/201703011219/store.log.
+Wed, 01 Mar 2017 12:19:32 get_request.py[line:142] INFO Transaction info has been write into ./log/201703011219/transaction.log.
+Wed, 01 Mar 2017 12:21:52 get_request.py[line:111] INFO Block chain info has been write into ./log/201703011221/block_chain.log.
+Wed, 01 Mar 2017 12:21:52 get_request.py[line:87] INFO Store info has been write into ./log/201703011221/store.log.
+Wed, 01 Mar 2017 12:21:52 get_request.py[line:142] INFO Transaction info has been write into ./log/201703011221/transaction.log.
+Wed, 01 Mar 2017 12:22:48 get_request.py[line:111] INFO Block chain info has been write into ./log/201703011222/block_chain.log.
+Wed, 01 Mar 2017 12:22:48 get_request.py[line:87] INFO Store info has been write into ./log/201703011222/store.log.
+Wed, 01 Mar 2017 12:22:48 get_request.py[line:142] INFO Transaction info has been write into ./log/201703011222/transaction.log.
+Wed, 01 Mar 2017 12:32:37 get_request.py[line:111] INFO Block chain info has been write into ./log/201703011232/block_chain.log.
+Wed, 01 Mar 2017 12:32:37 get_request.py[line:87] INFO Store info has been write into ./log/201703011232/store.log.
+Wed, 01 Mar 2017 12:32:37 get_request.py[line:142] INFO Transaction info has been write into ./log/201703011232/transaction.log.
+Wed, 01 Mar 2017 12:34:03 get_request.py[line:111] INFO Block chain info has been write into ./log/201703011234/block_chain.log.
+Wed, 01 Mar 2017 12:34:04 get_request.py[line:87] INFO Store info has been write into ./log/201703011234/store.log.
+Wed, 01 Mar 2017 12:34:04 get_request.py[line:142] INFO Transaction info has been write into ./log/201703011234/transaction.log.
+Wed, 01 Mar 2017 13:11:30 get_request.py[line:111] INFO Block chain info has been write into ./log/201703011311/block_chain.log.
+Wed, 01 Mar 2017 13:11:30 get_request.py[line:87] INFO Store info has been write into ./log/201703011311/store.log.
+Wed, 01 Mar 2017 13:13:33 get_request.py[line:111] INFO Block chain info has been write into ./log/201703011313/block_chain.log.
+Wed, 01 Mar 2017 13:13:33 get_request.py[line:87] INFO Store info has been write into ./log/201703011313/store.log.
+Wed, 01 Mar 2017 13:13:33 get_request.py[line:142] INFO Transaction info has been write into ./log/201703011313/transaction.log.
+Wed, 01 Mar 2017 13:21:53 get_request.py[line:111] INFO Block chain info has been write into ./log/201703011321/block_chain.log.
+Wed, 01 Mar 2017 13:21:53 get_request.py[line:87] INFO Store info has been write into ./log/201703011321/store.log.
+Wed, 01 Mar 2017 13:21:53 get_request.py[line:142] INFO Transaction info has been write into ./log/201703011321/transaction.log.
+Wed, 01 Mar 2017 13:29:31 get_request.py[line:111] INFO Block chain info has been write into ./log/201703011329/block_chain.log.
+Wed, 01 Mar 2017 13:29:31 get_request.py[line:87] INFO Store info has been write into ./log/201703011329/store.log.
+Wed, 01 Mar 2017 13:29:31 get_request.py[line:142] INFO Transaction info has been write into ./log/201703011329/transaction.log.
