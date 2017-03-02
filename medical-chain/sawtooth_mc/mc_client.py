@@ -44,8 +44,8 @@ class McClient(SawtoothClient):
             update['patient_id'] = None
         if 'Action' not in update:
             update['Action'] = None
-        if 'Space' in update and update['Space'] is None:
-            del update['Space']
+        if 'patient_illness' in update and update['patient_illness'] is None:
+            del update['patient_illness']
         return self.sendtxn('/McTransaction',
                             '/Mc/Transaction',
                             update)
@@ -60,13 +60,13 @@ class McClient(SawtoothClient):
 
         return self.send_mc_txn(update)
 
-    def take(self, patient_id, space):
+    def take(self, patient_id, patient_illness):
         """
         """
         update = {
             'Action': 'TAKE',
             'patient_id': patient_id,
-            'Space': space,
+            'patient_illness': patient_illness,
         }
         return self.send_mc_txn(update)
 

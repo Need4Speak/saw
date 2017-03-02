@@ -73,7 +73,7 @@ class McTransaction(transaction.Transaction):
         LOGGER.debug("minfo: %s", repr(minfo))
         self._patient_id = minfo['patient_id'] if 'patient_id' in minfo else None
         self._patient_name = minfo['Action'] if 'Action' in minfo else None
-        self._patient_illness = minfo['Space'] if 'Space' in minfo else None
+        self._patient_illness = minfo['patient_illness'] if 'patient_illness' in minfo else None
 
     def __str__(self):
         try:
@@ -123,6 +123,6 @@ class McTransaction(transaction.Transaction):
         result['Action'] = self._patient_name
         result['patient_id'] = self._patient_id
         if self._patient_illness is not None:
-            result['Space'] = self._patient_illness
+            result['patient_illness'] = self._patient_illness
         LOGGER.info("Run function dump.")
         return result

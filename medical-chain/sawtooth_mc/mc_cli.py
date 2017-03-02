@@ -290,7 +290,7 @@ def do_take(args, config):
     client = McClient(base_url=url,
                       keyfile=key_file,
                       disable_client_validation=args.disable_client_validation)
-    client.take(patient_id=name, space=space)
+    client.take(patient_id=name, patient_illness=space)
 
     if args.wait:
         client.wait_for_commit()
