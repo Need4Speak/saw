@@ -71,9 +71,9 @@ class McTransaction(transaction.Transaction):
         super(McTransaction, self).__init__(minfo)
 
         LOGGER.debug("minfo: %s", repr(minfo))
-        self._name = minfo['Name'] if 'Name' in minfo else None
-        self._action = minfo['Action'] if 'Action' in minfo else None
-        self._space = minfo['Space'] if 'Space' in minfo else None
+        self._patient_id = minfo['patient_id'] if 'patient_id' in minfo else None
+        self._patient_name = minfo['Action'] if 'Action' in minfo else None
+        self._patient_illness = minfo['Space'] if 'Space' in minfo else None
 
     def __str__(self):
         try:
@@ -81,8 +81,8 @@ class McTransaction(transaction.Transaction):
         except AssertionError:
             oid = "unknown"
         return "({0} {1} {2})".format(oid,
-                                      self._name,
-                                      self._space)
+                                      self._patient_id,
+                                      self._patient_illness)
 
     def check_valid(self, store):
         """Determines if the transaction is valid.
@@ -104,13 +104,13 @@ class McTransaction(transaction.Transaction):
         # LOGGER.error('McTransaction.apply is not implemented')
         print "Run function apply"
 
-        if self._name in store:
-            game = store[self._name].copy()
+        if self._patient_id in store:
+            game = store[self._patient_id].copy()
         else:
             game = {}
 
         game["status"] = "1"
-        store[self._name] = game
+        store[self._patient_id] = game
 
     def dump(self):
         """Returns a dict with attributes from the transaction object.
@@ -120,9 +120,9 @@ class McTransaction(transaction.Transaction):
         """
         result = super(McTransaction, self).dump()
 
-        result['Action'] = self._action
-        result['Name'] = self._name
-        if self._space is not None:
-            result['Space'] = self._space
+        result['Action'] = self._patient_name
+        result['patient_id'] = self._patient_id
+        if self._patient_illness is not None:
+            result['Space'] = self._patient_illness
         LOGGER.info("Run function dump.")
         return result

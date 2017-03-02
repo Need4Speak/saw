@@ -40,8 +40,8 @@ class McClient(SawtoothClient):
             txnid: str The txnid associated with the transaction
 
         """
-        if 'Name' not in update:
-            update['Name'] = None
+        if 'patient_id' not in update:
+            update['patient_id'] = None
         if 'Action' not in update:
             update['Action'] = None
         if 'Space' in update and update['Space'] is None:
@@ -50,22 +50,22 @@ class McClient(SawtoothClient):
                             '/Mc/Transaction',
                             update)
 
-    def create(self, name):
+    def create(self, patient_id):
         """
         """
         update = {
             'Action': 'CREATE',
-            'Name': name
+            'patient_id': patient_id
         }
 
         return self.send_mc_txn(update)
 
-    def take(self, name, space):
+    def take(self, patient_id, space):
         """
         """
         update = {
             'Action': 'TAKE',
-            'Name': name,
+            'patient_id': patient_id,
             'Space': space,
         }
         return self.send_mc_txn(update)

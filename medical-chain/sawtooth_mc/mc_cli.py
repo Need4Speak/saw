@@ -290,7 +290,7 @@ def do_take(args, config):
     client = McClient(base_url=url,
                       keyfile=key_file,
                       disable_client_validation=args.disable_client_validation)
-    client.take(name=name, space=space)
+    client.take(patient_id=name, space=space)
 
     if args.wait:
         client.wait_for_commit()
@@ -353,7 +353,7 @@ def main(prog_name=os.path.basename(sys.argv[0]), args=sys.argv[1:]):
     elif args.command == 'take':
         do_take(args, config)
     else:
-        raise XoException("invalid command: {}".format(args.command))
+        raise McException("invalid command: {}".format(args.command))
 
 
 def main_wrapper():
