@@ -42,10 +42,11 @@ class McClient(SawtoothClient):
         """
         if 'patient_id' not in update:
             update['patient_id'] = None
-        if 'Action' not in update:
-            update['Action'] = None
-        if 'patient_illness' in update and update['patient_illness'] is None:
-            del update['patient_illness']
+        if 'patient_name' not in update:
+            update['patient_name'] = None
+        if 'patient_illness' not in update:
+            update['patient_illness'] = None
+
         return self.sendtxn('/McTransaction',
                             '/Mc/Transaction',
                             update)
