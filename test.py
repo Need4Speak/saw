@@ -1,7 +1,3 @@
-def fun1(dict1):
-    dict1["2"] = 3
-
-dict1 = {"2": 2}
-print dict1
-del dict1["2"]
-print dict1
+test = './.git/COMMIT_EDITMSG'
+print test.split(r'.')[-1] == 'py'
+print test

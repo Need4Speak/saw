@@ -24,13 +24,14 @@ logging.getLogger('').addHandler(console)
 dbm_loc = '/home/ubuntu/sawtooth/data/mc000_state.dbm'
 
 
-def load_data(log_file='./log/%s_content.txt' % os.path.basename(dbm_loc)):
+def load_data(log_file='../log/%s_content.txt' % os.path.basename(dbm_loc)):
     if os.path.exists(dbm_loc):
         logging.info('Find file %s.' % dbm_loc)
         db = anydbm.open(dbm_loc, 'r')
 
         with open(log_file, 'w') as f:
             for item in db.items():
+                print type(item)
                 print item
                 f.write(str(item) + '\n')
             db.close()

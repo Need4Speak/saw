@@ -14,7 +14,7 @@ def socket_conn():
     # 创建一个socket:
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     # 建立连接:
-    s.connect(('127.0.0.1', 8800))
+    s.connect(('127.0.0.1', 8801))
     # 发送数据:
     #s.send('GET /block HTTP/1.1\r\nHost: 127.0.0.1:8800\r\nConnection: close\r\n\r\n')
     s.send('GET /block/31695f872ececa39 HTTP/1.1\r\nHost: 127.0.0.1:8800\r\nUser-Agent: curl/7.43.0\r\nAccept: */*\r\nConnection: close\r\n\r\n')

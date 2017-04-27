@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://D:/Python_Test/.idea/Python_Test.iml" filepath="D:/Python_Test/.idea/Python_Test.iml" />
+      <module fileurl="file://D:/workspace_python/net_test/.idea/net_test.iml" filepath="D:/workspace_python/net_test/.idea/net_test.iml" />
+      <module fileurl="file://D:/workspace_python/net_test_2.7/.idea/net_test_2.7.iml" filepath="D:/workspace_python/net_test_2.7/.idea/net_test_2.7.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/project.iml" filepath="$PROJECT_DIR$/.idea/project.iml" />
+      <module fileurl="file://D:/workspace_python/util/.idea/util.iml" filepath="D:/workspace_python/util/.idea/util.iml" />
     </modules>
   </component>
 </project>

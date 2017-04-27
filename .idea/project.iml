@@ -5,6 +5,9 @@
     <orderEntry type="jdk" jdkName="Remote Python 2.7.12 Vagrant VM at C:\Users\m\project\sawtooth-core\tools (/usr/bin/python)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Python_Test" />
+    <orderEntry type="module" module-name="net_test" />
+    <orderEntry type="module" module-name="net_test_2.7" />
+    <orderEntry type="module" module-name="util" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
