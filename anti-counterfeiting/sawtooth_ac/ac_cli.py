@@ -30,8 +30,8 @@ from colorlog import ColoredFormatter
 from sawtooth.exceptions import ClientException
 from sawtooth.exceptions import InvalidTransactionError
 
-from mc_client import McClient
-from mc_exceptions import McException
+from ac_client import AcClient
+from ac_exceptions import AcException
 
 
 def create_console_handler(verbose_level):
@@ -170,11 +170,11 @@ def do_create(args, config):
     url = config.get('DEFAULT', 'url')
     key_file = config.get('DEFAULT', 'key_file')
 
-    # client = McClient(base_url=url,
+    # client = AcClient(base_url=url,
     #                   keyfile=key_file,
     #                   disable_client_validation=args.disable_client_validation)  # disable_client_validation: disable client validation
 
-    client = McClient(base_url=url,
+    client = AcClient(base_url=url,
                       keyfile=key_file,
                       disable_client_validation=args.disable_client_validation)
     client.create(name=name)
@@ -218,14 +218,14 @@ def do_init(args, config):
                 addr_fd.write(addr)
                 addr_fd.write("\n")
         except IOError, ioe:
-            raise McException("IOError: {}".format(str(ioe)))
+            raise AcException("IOError: {}".format(str(ioe)))
 
 
 def do_list(args, config):
     url = config.get('DEFAULT', 'url')
     key_file = config.get('DEFAULT', 'key_file')
 
-    client = McClient(base_url=url, keyfile=key_file)
+    client = AcClient(base_url=url, keyfile=key_file)
     state = client.get_all_store_objects()
 
     fmt = "%-15s %-15.15s %-15.15s %-9s %s"
@@ -250,11 +250,11 @@ def do_show(args, config):
     url = config.get('DEFAULT', 'url')
     key_file = config.get('DEFAULT', 'key_file')
 
-    client = McClient(base_url=url, keyfile=key_file)
+    client = AcClient(base_url=url, keyfile=key_file)
     state = client.get_all_store_objects()
 
     if name not in state:
-        raise McException('no such game: {}'.format(name))
+        raise AcException('no such game: {}'.format(name))
 
     game = state[name]
 
@@ -287,7 +287,7 @@ def do_take(args, config):
     url = config.get('DEFAULT', 'url')
     key_file = config.get('DEFAULT', 'key_file')
 
-    client = McClient(base_url=url,
+    client = AcClient(base_url=url,
                       keyfile=key_file,
                       disable_client_validation=args.disable_client_validation)
     client.take(patient_id=name, patient_illness=space)
@@ -300,7 +300,7 @@ def load_config():
     home = os.path.expanduser("~")
     real_user = getpass.getuser()
 
-    config_file = os.path.join(home, ".sawtooth", "mc.cfg")
+    config_file = os.path.join(home, ".sawtooth", "ac.cfg")
     key_dir = os.path.join(home, ".sawtooth", "keys")
 
     config = ConfigParser.SafeConfigParser()
@@ -317,7 +317,7 @@ def load_config():
 def save_config(config):
     home = os.path.expanduser("~")
 
-    config_file = os.path.join(home, ".sawtooth", "mc.cfg")
+    config_file = os.path.join(home, ".sawtooth", "ac.cfg")
     if not os.path.exists(os.path.dirname(config_file)):
         os.makedirs(os.path.dirname(config_file))
 
@@ -353,13 +353,13 @@ def main(prog_name=os.path.basename(sys.argv[0]), args=sys.argv[1:]):
     elif args.command == 'take':
         do_take(args, config)
     else:
-        raise McException("invalid command: {}".format(args.command))
+        raise AcException("invalid command: {}".format(args.command))
 
 
 def main_wrapper():
     try:
         main()
-    except McException as e:
+    except AcException as e:
         print >>sys.stderr, "Error: {}".format(e)
         sys.exit(1)
     except InvalidTransactionError as e:

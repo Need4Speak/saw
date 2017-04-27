@@ -10,7 +10,7 @@
     ##    "Port" : 5500,
     ##    "HttpPort" : 8800
     ##},
-    "NodeName" : "mc000",
+    "NodeName" : "ac000",
     "LedgerURL" : "http://localhost:8800/",
 
     ## pick the ledger type
@@ -50,7 +50,7 @@
     ## configuration of the transaction families to include
     ## in the validator
     "TransactionFamilies" : [
-        "sawtooth_mc"
+        "sawtooth_ac"
     ],
 
     ## This value should be set to the identifier which is

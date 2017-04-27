@@ -14,6 +14,6 @@
 # ------------------------------------------------------------------------------
 
 
-class McException(Exception):
+class AcException(Exception):
     def __init__(self, msg):
-        super(McException, self).__init__(msg)
+        super(AcException, self).__init__(msg)
